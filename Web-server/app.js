@@ -6,7 +6,7 @@ const port=process.env.PORT||3000;
 app.use(express.static(path.join(__dirname,'../web-page'))); 
 app.set('view engine','hbs');
 app.set('views',path.join(__dirname,'../web-page/handlebars'));
-app.get('/weather',(req,res)=>{
+app.get('',(req,res)=>{
     res.render('Home');
 });
 app.get('/weatherInfo',async (req,res)=>{
