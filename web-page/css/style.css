@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    height:5vh;
+    padding: 10px;
+    background-color:lightseagreen ;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.three_lines{
+    background-color: white;
+    margin-bottom: 5px;
+    display: inline-block;
+    height: 4px;
+    width: 25px;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    margin-right: 40%;
+    margin-left: 2%;
+}
+#sidebar:hover{
+    cursor: pointer;
+}
+#logo{
+    color: white;
+    font-size: 32px;
+    font-family: fantasy;
+}
+form{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+}
+form input{
+    padding: 10px;
+    width: 300px;
+    border-radius: 10px;
+    border:1px solid gray;
+    margin-right: 20px;
+}
+form input:focus{
+    outline: none;
+}
+form button{
+    background-color: lightseagreen;
+    color: white;
+    padding: 5px;
+    border: 0px;
+    border-radius: 10px;
+}
+form button:focus{
+    outline: none;
+}
+form button:hover{
+    cursor: pointer;
+}
+#weather-info{
+    width: 30vw;
+    margin-top: 10vh;
+    height: 30vh;
+    margin-bottom: 25vh;
+}
+#outer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#breakline{
+    background-color: gray;
+    height: 3px;
+    width:50vw;
+}
+#creator{
+    font-size: 35px;
+    font-family: sans-serif;
+    width: 30vw;
+}
