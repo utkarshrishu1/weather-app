@@ -7,7 +7,7 @@ document.querySelector('form').addEventListener('submit',(e)=>{
     }
     else
     {
-        fetch('http://localhost:3000/weatherInfo?location='+val).then(res=>res.json()).then((res)=>{
+        fetch('/weatherInfo?location='+val).then(res=>res.json()).then((res)=>{
             if(res.error){
                 document.getElementById("temp-info").innerText=res.error;
             }
